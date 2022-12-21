@@ -6,7 +6,7 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title(" Welcome to the smart blood report generator ")
+st.title(" Welcome to the Smart Blood Report Generator ")
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
