@@ -41,7 +41,7 @@ for i in df.values:
 
     with col2:
       
-        st.subheader(str(i[4])+str(i[3]) + "-" + str(i[6]))
+        st.subheader(str(i[4])+str(i[3]) + "  -  " + str(i[6]))
         if(i[5]=="Normal"):
             st.success(i[7])
         elif(i[5]=="High"):
