@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd 
 st.set_page_config(
     page_title="Ex-stream-ly Cool App",
     page_icon="🧊",
@@ -36,6 +37,8 @@ st.markdown("""
     ### Hemoglobin
     ##### lwrflwrjf;wrjf wrofjwo;rf jw;ojf w;ofjw; oefjw;fj;wfj w;fj wofjw;o fjwo;jf w;fj w;rkjlfknlflsfklfj fj f
 """)
+
+df=pd.read_csv("./abc.csv")
 for i in range(3):  
     col1, col2 , col3 = st.columns(3)
     with col1:
