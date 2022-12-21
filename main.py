@@ -26,17 +26,10 @@ if uploaded_file is not None:
     dataframe = pd.read_csv(uploaded_file)
     st.write(dataframe)
 
-mydata = [
-    ['a', 'b', 'c'],
-      [12, 34, 56],
-      ['Geeks', 'for', 'geeks!']
-]
+
 st.header("Dashboard")
 
-st.markdown("""
-    ### Hemoglobin
-    ##### lwrflwrjf;wrjf wrofjwo;rf jw;ojf w;ofjw; oefjw;fj;wfj w;fj wofjw;o fjwo;jf w;fj w;rkjlfknlflsfklfj fj f
-""")
+
 
 df=pd.read_csv("./smartreport1.csv")
 st.write(df)
@@ -49,6 +42,7 @@ for i in range(3):
 
     with col2:
         st.subheader("Your levels are okay")
+        st.subheader("")
 
 
     with col3:
