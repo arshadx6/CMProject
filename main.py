@@ -48,5 +48,6 @@ for i in range(3):
 
     with col3:
         st.header("An owl")
+        st.warning("sdasdasdasdasdSA")
 
 
