@@ -40,7 +40,8 @@ for i in df.values:
         st.write(i[2])        
 
     with col2:
-        st.subheader(i[5])
+        st.subheader(i[6])
+        st.subheader(i[4],i[3])
         if(i[5]=="Normal"):
             st.success(i[6])
         elif(i[5]=="High"):
