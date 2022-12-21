@@ -20,12 +20,14 @@ if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
     dataframe = pd.read_csv(uploaded_file)
     st.write(dataframe)
-col1, col2= st.columns(2)
+
 mydata = [
     ['a', 'b', 'c'],
       [12, 34, 56],
       ['Geeks', 'for', 'geeks!']
 ]
-
-col1.header(mydata[0][0])
-col2.metric("Humidity", "86%", "4%")
+for i in range(mydata.size):
+    
+    col1, col2= st.columns(2)
+    col1.header(mydata[i][i])
+    col2.metric("Humidity", "86%", "4%")
