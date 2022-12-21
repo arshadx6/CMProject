@@ -38,7 +38,7 @@ st.markdown("""
     ##### lwrflwrjf;wrjf wrofjwo;rf jw;ojf w;ofjw; oefjw;fj;wfj w;fj wofjw;o fjwo;jf w;fj w;rkjlfknlflsfklfj fj f
 """)
 
-df=pd.read_csv("./abc.csv")
+df=pd.read_csv("./smartreport1.csv")
 for i in range(3):  
     col1, col2 , col3 = st.columns(3)
     with col1:
