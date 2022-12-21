@@ -30,5 +30,5 @@ st.header("Dashboard")
 for i in range(3):  
     col1, col2= st.columns(2)
     col1.info(mydata[i][i])
-    col2.metric(st.info(Humidity), "86%", "4%")
+    col2.metric("Humidity", "86%", "-8%")
     
