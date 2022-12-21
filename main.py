@@ -41,7 +41,7 @@ for i in df.values:
 
     with col2:
         st.caption(i[6])
-        st.caption(i[4])
+        st.caption(i[4]+i[3])
         if(i[5]=="Normal"):
             st.success(i[6])
         elif(i[5]=="High"):
