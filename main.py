@@ -20,6 +20,6 @@ if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
     dataframe = pd.read_csv(uploaded_file)
     st.write(dataframe)
-col1, col2, col3 = st.columns(3)
+col1, col2= st.columns(2)
 col1.title("hello")
-col3.metric("Humidity", "86%", "4%")
+col2.metric("Humidity", "86%", "4%")
