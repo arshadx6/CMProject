@@ -44,9 +44,9 @@ for i in range(3):
 
     with col2:
         st.metric("Humidity", "86%", "-8%")
-        st.image("https://static.streamlit.io/examples/dog.jpg")
+
 
     with col3:
         st.header("An owl")
-        st.image("https://static.streamlit.io/examples/owl.jpg")
+
 
