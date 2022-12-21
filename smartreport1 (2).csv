@@ -1,0 +1,11 @@
+,Test Name,Test Explanation,Observed Value,Required Range,Result,Explanation
+0,PCV,The packed cell volume (PCV) is a measurement of the proportion of blood that is made up of cells. A low PCV implies that the patient has a low number of red blood cells and is suffering from anemia. ,47.8,"[40.0, 50.0]",Normal,Your levels are fine.
+1,RBC COUNT,"Red blood cells (RBCs) carry oxygen to tissues throughout the body, making them important to its healthy functioning. A red blood cell count estimates the volume of RBCs within an individual.",5.19,"[4.5, 5.5]",Normal,Your levels are fine.
+2,MCV,"The average volume of RBCs, or the space each red blood cell fills, is measured through this test. ",92.0,"[83.0, 101.0]",Normal,Your levels are fine.
+3,MCH,"The lab tests the average amount of hemoglobin present in each red blood cell.
+
+",31.6,"[27.0, 32.0]",Normal,Your levels are fine.
+4,MCHC,MCHC stands for mean corpuscular hemoglobin concentration. It's a measure of the average concentration of hemoglobin inside a single red blood cell. Low levels of MCHC means your red blood cells are smaller than usual and have a decreased level of hemoglobin. This type of microcytic anemia can be caused by: lack of iron.,34.3,"[31.5, 34.5]",Normal,Your levels are fine.
+5,ABSOLUTE EOSINOPHILS,"An absolute eosinophil count is a blood test that measures the number of one type of white blood cells called eosinophils. Eosinophils become active when you have certain allergic diseases, infections, and other medical conditions.",357.7,"[20.0, 500.0]",Normal,Your levels are fine.
+6,ABSOLUTE MONOCYTES,"Since monocytes are a type of white blood cell, your healthcare provider will request a complete blood count (CBC) with differential. This test counts the five types of white blood cells in your blood sample to verify whether or not your cell count is normal, too high or too low",511.0,"[200.0, 1000.0]",Normal,Your levels are fine.
+7,ABSOLUTE BASOPHILS,An absolute basophil count identifies how many basophils are present in a sample of your blood. The calculation for an absolute basophil count multiplies the percentage of basophils from a complete blood count by the total number of white blood cells from the same count.,7.3,"[0.0, 100.0]",Normal,Your levels are fine.
