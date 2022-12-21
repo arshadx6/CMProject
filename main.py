@@ -40,14 +40,14 @@ for i in df.values:
         st.write(i[2])        
 
     with col2:
-        st.caption(i[6])
-        st.caption(str(i[4])+str(i[3]))
+      
+        st.subheader(str(i[4])+str(i[3]) + "-" + str(i[6]))
         if(i[5]=="Normal"):
-            st.success(i[6])
+            st.success(i[7])
         elif(i[5]=="High"):
-            st.error(i[6])
+            st.error(i[7])
         else:
-            st.info(i[6])
+            st.info(i[7])
         
 
 
