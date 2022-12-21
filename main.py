@@ -39,6 +39,7 @@ st.markdown("""
 """)
 
 df=pd.read_csv("./smartreport1.csv")
+st.write(df)
 for i in range(3):  
     col1, col2 , col3 = st.columns(3)
     with col1:
