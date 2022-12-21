@@ -37,7 +37,7 @@ st.markdown("""
     ##### lwrflwrjf;wrjf wrofjwo;rf jw;ojf w;ofjw; oefjw;fj;wfj w;fj wofjw;o fjwo;jf w;fj w;rkjlfknlflsfklfj fj f
 """)
 for i in range(3):  
-    col1, col2= st.columns(2)
-    col1.info(mydata[i][i],)
+    col1, col2 , col3 = st.columns(3)
+    col1.header(myData[i][i])
     col2.metric("Humidity", "86%", "-8%")
-    
+    col3.header(myData[i][i])
