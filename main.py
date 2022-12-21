@@ -33,10 +33,10 @@ st.header("Dashboard")
 
 df=pd.read_csv("./smartreport1.csv")
 st.write(df)
-for i in range(3):  
+for i in df:  
     col1, col2 , col3 = st.columns(3)
     with col1:
-        st.header("Test1")
+        st.header(i[1])
         st.subheader("Hemoglobin is a protein contained within red RBCs that sends oxygen from the lungs to the body’s tissues. The hemoglobin test is useful in diagnosing anemia, with many practitioners preferring this test over the hematocrit test.")
         
 
