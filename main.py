@@ -21,5 +21,7 @@ if uploaded_file is not None:
     dataframe = pd.read_csv(uploaded_file)
     st.write(dataframe)
 col1, col2= st.columns(2)
-col1.header("hello")
+ad = [ab,cd]
+
+col1.header(ad)
 col2.metric("Humidity", "86%", "4%")
