@@ -26,7 +26,7 @@ mydata = [
       [12, 34, 56],
       ['Geeks', 'for', 'geeks!']
 ]
-st.write(mydata.size)
+st.write(mydata.size())
 for i in range(mydata.size):
     
     col1, col2= st.columns(2)
