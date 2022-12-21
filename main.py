@@ -40,9 +40,8 @@ for i in df.values:
         st.write(i[2])        
 
     with col2:
-        st.subheader("Your levels are okay")
-
-        st.warning(i[5])
+        st.subheader(i[5])
+        st.warning(i[6])
 
 
 
