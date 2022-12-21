@@ -32,7 +32,7 @@ st.header("Dashboard")
 
 
 df=pd.read_csv("./smartreport1.csv")
-st.write(df)
+
 for i in df.values:  
     col1, col2 = st.columns(2)
     with col1:
