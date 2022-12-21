@@ -36,8 +36,8 @@ st.write(df)
 for i in df.values:  
     col1, col2 , col3 = st.columns(3)
     with col1:
-        st.header(i[1])
-        st.subheader(i[2])        
+        st.subheader(i[1])
+        st.write(i[2])        
 
     with col2:
         st.subheader("Your levels are okay")
