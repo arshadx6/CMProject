@@ -20,3 +20,4 @@ if uploaded_file is not None:
     # Can be used wherever a "file-like" object is accepted:
     dataframe = pd.read_csv(uploaded_file)
     st.write(dataframe)
+    col1.metric("Temperature", "70 °F", "1.2 °F")
