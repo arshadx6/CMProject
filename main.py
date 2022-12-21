@@ -26,7 +26,8 @@ mydata = [
       [12, 34, 56],
       ['Geeks', 'for', 'geeks!']
 ]
-for i in range(mydata.length):
+st.write(mydata.size)
+for i in range(mydata.size):
     
     col1, col2= st.columns(2)
     col1.header(mydata[i][i])
