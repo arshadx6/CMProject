@@ -37,16 +37,15 @@ for i in df.values:
     col1, col2 , col3 = st.columns(3)
     with col1:
         st.header(i[1])
-        st.subheader("Hemoglobin is a protein contained within red RBCs that sends oxygen from the lungs to the body’s tissues. The hemoglobin test is useful in diagnosing anemia, with many practitioners preferring this test over the hematocrit test.")
-        
+        st.subheader(i[2])        
 
     with col2:
         st.subheader("Your levels are okay")
+        st.subheader(i[3])
         st.subheader("")
 
 
     with col3:
-        st.header("An owl")
-        st.warning("sdasdasdasdasdSA")
+        st.warning(i[5])
 
 
