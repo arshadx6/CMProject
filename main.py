@@ -41,7 +41,7 @@ for i in df.values:
 
     with col2:
         st.subheader(i[5])
-        st.warning(i[6])
+        st.success(i[6])
 
 
 
