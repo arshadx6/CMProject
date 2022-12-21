@@ -41,7 +41,13 @@ for i in df.values:
 
     with col2:
         st.subheader(i[5])
-        st.success(i[6])
+        if(i[5]=="Normal"):
+            st.success(i[6])
+        elif(i[5]=="High"):
+            st.error(i[6])
+        else:
+            st.info(i[6])
+        
 
 
 
