@@ -38,6 +38,17 @@ st.markdown("""
 """)
 for i in range(3):  
     col1, col2 , col3 = st.columns(3)
+    with col1:
+   st.header(mydata[i][i])
+   st.image("https://static.streamlit.io/examples/cat.jpg")
+
+with col2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg")
+
+with col3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg")
     col1.header(myData[i][i])
     col2.metric("Humidity", "86%", "-8%")
     col3.header(myData[i][i])
