@@ -41,7 +41,7 @@ for i in df.values:
 
     with col2:
         st.subheader("Your levels are okay")
-        st.subheader(i[3])
+
         st.warning(i[5])
 
 
