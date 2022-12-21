@@ -1,0 +1,26 @@
+,Test Name,Test Explanation,Unit,Observed Value,Required Range,Result,Explanation
+0,Hemoglobin,"Hemoglobin is a protein contained within red RBCs that sends oxygen from the lungs to the body’s tissues. The hemoglobin test is useful in diagnosing anemia, with many practitioners preferring this test over the hematocrit test.",g/dL,13.8,"[12.0, 15.0]",Normal,Your levels are fine.
+1,RBC,"Red blood cells (RBCs) carry oxygen to tissues throughout the body, making them important to its healthy functioning. A red blood cell count estimates the volume of RBCs within an individual.",mili/cu.mm,4.82,"[3.8, 4.8]",High,"if the results show a count above or below normal levels this can indicate various medical conditions to a doctor. However, this form of testing is unable to pinpoint the root causes of any irregularities, meaning, if this is the case, further tests will be necessary."
+2,HCT,Hematocrit is the percentage by volume of red cells in your blood.,%,42.9,"[40.0, 50.0]",Normal,Your levels are fine.
+3,MCV,"The average volume of RBCs, or the space each red blood cell fills, is measured through this test. ","f
+l",89.0,"[83.0, 101.0]",Normal,Your levels are fine.
+4,MCH,"The lab tests the average amount of hemoglobin present in each red blood cell.
+
+",pg,28.6,"[27.0, 32.0]",Normal,Your levels are fine.
+5,MCHC,MCHC stands for mean corpuscular hemoglobin concentration. It's a measure of the average concentration of hemoglobin inside a single red blood cell. Low levels of MCHC means your red blood cells are smaller than usual and have a decreased level of hemoglobin. This type of microcytic anemia can be caused by: lack of iron.,g/dL,32.2,"[31.5, 34.5]",Normal,Your levels are fine.
+6,RDW-CV,The RDW-CV is a calculation based on both the width of the distribution curve and the mean cell size. It is calculated by dividing the standard deviation of the mean cell size by the MCV of the red cells and multiplying by 100 to convert to a percentage. A normal range for the RDW-CV is approximately 11.0 - 15.0%.,%,13.5,"[11.5, 14.0]",Normal,Your levels are fine.
+7,Total Leucocyte Count,"TLC also known as white blood cells, leukocytes are a major component of the body’s immune system.",10^3/µI,8.3,"[4.0, 10.0]",Normal,Your levels are fine.
+8,Neutrophils,An absolute neutrophil count identifies how many neutrophils are in a sample of your blood. ,%,60.4,"[40.0, 80.0]",Normal,Your levels are fine.
+9,Lymphocytes,Lymphocytes are a type of white blood cell. They help your body's immune system fight cancer and foreign viruses and bacteria.,%,31.6,"[20.0, 40.0]",Normal,Your levels are fine.
+10,Monocytes,"Since monocytes are a type of white blood cell, your healthcare provider will request a complete blood count (CBC) with differential. This test counts the five types of white blood cells in your blood sample to verify whether or not your cell count is normal, too high or too low",%,5.8,"[2.0, 10.0]",Normal,Your levels are fine.
+11,Eosinophils,They are a variety of white blood cells (WBCs) and one of the immune system components responsible for combating multicellular parasites and certain infections in vertebrates. Most reside in the gut tissue and survive for up to several weeks. ,%,2.0,"[1.0, 6.0]",Normal,Your levels are fine.
+12,Basophils,"Basophils are a type of white blood cell that works closely with your immune system to defend your body from allergens, pathogens and parasites. Basophils release enzymes to improve blood flow and prevent blood clots.",%,0.2,"[0.0, 2.0]",Normal,Your levels are fine.
+13,Absolute Neutrophil Count,An absolute neutrophil count identifies how many neutrophils are in a sample of your blood. ,10^3/µL,5.01,"[2.0, 7.0]",Normal,Your levels are fine.
+14,Absolute Lymphocyte Count,Lymphocytes are a type of white blood cell. They help your body's immune system fight cancer and foreign viruses and bacteria.,10^3/µL,2.62,"[1.0, 3.0]",Normal,Your levels are fine.
+15,Absolute Monocyte Count,"Since monocytes are a type of white blood cell, your healthcare provider will request a complete blood count (CBC) with differential. This test counts the five types of white blood cells in your blood sample to verify whether or not your cell count is normal, too high or too low",10^3/µL,0.48,"[0.2, 1.0]",Normal,Your levels are fine.
+16,Absolute Eosinophil Count,"An absolute eosinophil count is a blood test that measures the number of one type of white blood cells called eosinophils. Eosinophils become active when you have certain allergic diseases, infections, and other medical conditions.",10^3/µL,0.17,"[0.02, 0.5]",Normal,Your levels are fine.
+17,Absolute Basophil Count,An absolute basophil count identifies how many basophils are present in a sample of your blood. The calculation for an absolute basophil count multiplies the percentage of basophils from a complete blood count by the total number of white blood cells from the same count.,10^3/µL,0.02,"[0.02, 0.1]",Normal,Your levels are fine.
+18,Platelet Count,"Platelets are small cells that help the blood to clot. This test measures the amount of platelets present in the blood.
+",10^3/µI,210.0,"[150.0, 410.0]",Normal,Your levels are fine.
+19,MPV,Tests the volume of platelets in the blood.,"f
+l",12.1,"[6.5, 12.0]",High,A high platelet volume can increase an individual’s risk of heart attack or stroke.
